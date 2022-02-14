@@ -1,7 +1,7 @@
 import React from 'react';
 import Expenses from './components/ExpenseData/Expenses';
 
-function App() {
+fconst App = () => {
   // using date object 
   // let expenseDate = new Date(2022, 1, 13);
   // let expenseTitle = "School Fee";
