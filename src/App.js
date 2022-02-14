@@ -1,4 +1,5 @@
-import Expenses from './components/Expenses';
+import React from 'react';
+import Expenses from './components/ExpenseData/Expenses';
 
 function App() {
   // using date object 
@@ -32,15 +33,15 @@ function App() {
       amount: 50,
       date: new Date(2022, 1, 8)
     }
-]
+];
 
   return (
     <div>
       <h2>Expense Tracker</h2>
        {/* props: passing data to components */}
-    {/* <ExpenseItem date={expenseDate} title={expenseTitle} amount={expenseAmount} ></ExpenseItem> */}
+       {/* <ExpenseItem date={expenseDate} title={expenseTitle} amount={expenseAmount} ></ExpenseItem> */}
 
-    <Expenses item = {expenses}/>
+      <Expenses item = {expenses}/>
     </div>
   );
 }
