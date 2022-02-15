@@ -12,3 +12,8 @@ body {
   margin: 0;
   background-color: #9de5bb;
 }
+
+h2{
+  text-align: center;
+  text-decoration: underline;
+}
