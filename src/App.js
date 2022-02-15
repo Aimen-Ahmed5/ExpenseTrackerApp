@@ -1,5 +1,6 @@
 import React from 'react';
 import Expenses from './components/ExpenseData/Expenses';
+import NewExpense from './components/NewExpenses/NewExpense';
 
 const App = () => {
   // using date object 
@@ -41,6 +42,7 @@ const App = () => {
        {/* props: passing data to components */}
        {/* <ExpenseItem date={expenseDate} title={expenseTitle} amount={expenseAmount} ></ExpenseItem> */}
 
+       <NewExpense/>
       <Expenses item = {expenses}/>
     </div>
   );
