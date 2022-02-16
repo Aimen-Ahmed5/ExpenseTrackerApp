@@ -19,7 +19,7 @@ const ExpenseItem = (props) => {
     // const changeHandler = (event) => {
     //     setNew_title(event.target.value);
     // }
-
+    
     return(
         <Card className="expense-item">
             <ExpenseDate date = {props.date}/>
