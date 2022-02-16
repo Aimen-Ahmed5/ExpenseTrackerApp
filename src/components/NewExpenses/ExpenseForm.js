@@ -1,7 +1,8 @@
 import React, {useState} from "react";
 import './ExpenseForm.css';
 
-const ExpenseForm = () => {
+// write props to send child component to parent (NewExpense.js then to App.js)
+const ExpenseForm = (props) => {
 
     // submitting entered data through form and updating it each time using two-way binding
     const [enteredTitle, setEnteredTitle] = useState("");
