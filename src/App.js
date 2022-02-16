@@ -43,6 +43,7 @@ const App = () => {
 
   const addExpenseHandler = (expense) => {
 
+    // new expense, and previous ...expenses
     const updatedExpense = [expense, ...expenses];
      setUpdateExpenses(updatedExpense);
     // console.log(expense);
