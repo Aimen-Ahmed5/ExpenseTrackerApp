@@ -13,7 +13,9 @@ body {
   background-color: #9de5bb;
 }
 
-h2{
+h3{
   text-align: center;
   text-decoration: underline;
+  font-weight: bolder;
+  font-size: 25px;
 }
