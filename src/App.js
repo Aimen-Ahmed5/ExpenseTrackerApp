@@ -36,13 +36,20 @@ const App = () => {
     }
 ];
 
+// props transfered from ExpenseForm to NewExpense then to App.js (child to parent)
+// expense variable will receive props
+  const addExpenseHandler = (expense) => {
+    console.log(expense);
+  };
+
   return (
     <div>
       <h3>Expense Tracker</h3>
        {/* props: passing data to components */}
        {/* <ExpenseItem date={expenseDate} title={expenseTitle} amount={expenseAmount} ></ExpenseItem> */}
 
-       <NewExpense/>
+       {/* Data is taken from NewExpense- create function name similar to props*/}
+       <NewExpense onAddExpense = {addExpenseHandler}/>
       <Expenses item = {expenses}/>
     </div>
   );
