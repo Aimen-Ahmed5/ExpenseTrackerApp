@@ -38,7 +38,7 @@ const App = () => {
 
   return (
     <div>
-      <h2>Expense Tracker</h2>
+      <h3>Expense Tracker</h3>
        {/* props: passing data to components */}
        {/* <ExpenseItem date={expenseDate} title={expenseTitle} amount={expenseAmount} ></ExpenseItem> */}
 
